@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function HomePage() {
   return (
     <div className="text-center">
@@ -8,11 +6,11 @@ export default function HomePage() {
         Discover exclusive fashion collections designed with love and elegance.
       </p>
       <div className="flex justify-center">
-        <Image
+        <img
           src="/boutique.jpg"
           alt="Boutique"
-          width={500}
-          height={300}
+          width="500"
+          height="300"
           className="rounded-xl shadow-lg"
         />
       </div>
